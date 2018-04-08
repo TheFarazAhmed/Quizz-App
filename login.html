@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log-In</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body id="body">
+    <div class="jumbotron" id="login">
+        <h1 class="text-center text-secondary page-header">Log-In</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="email" class="text-secondary">Email:</label>
+                <input type="email" required="required" class="form-control" id="userEmail">
+            </div>
+            <div class="col-md-6">
+                <label for="password" class="text-secondary">Password:</label>
+                <input type="password" required="required" id="userPassword" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-warning" onclick="login();">Login</button>
+            </div>
+            <div class="col-xs-6">
+                <label for="" class="text-white bg-info">if you are new here, you need to click the Sign-Up button</label>
+                <button class="btn btn-primary" onclick="window.location='index.html'">Sign-Up</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="app1.js"></script>
+</body>
+
+</html>

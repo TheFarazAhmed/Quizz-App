@@ -1,0 +1,24 @@
+*{
+    padding: 1px
+}
+
+#body{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.margin{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.jumbotron{
+    opacity: 0.9;
+}

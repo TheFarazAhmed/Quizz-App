@@ -1,0 +1,60 @@
+#userProfile
+{
+ font-stretch: extra-expanded;
+}
+
+.pInfo {
+    font-weight: 450;
+    display: inline;
+}
+p{
+    line-height: 1.1em
+}
+
+#name{
+    text-shadow: 1px 1px 3px rgb(248, 246, 120);
+}
+
+#img1{
+    width: 150px;
+    min-width: 50px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 50px 5px sandybrown;
+}
+
+#info{
+    margin-top: 20px;
+    padding: 50px;
+    border-radius:20px 20px 5px 5px;
+    box-shadow: 1px 1px 10px 1px saddlebrown;
+}
+
+#resume{ 
+    padding: 10px;
+}
+
+#resumeBody{
+    padding: 20px;
+    border-radius:5px 5px 20px 20px;
+    box-shadow: 1px 1px 10px 1px rgb(163, 25, 106);
+}
+
+#me{
+    margin-bottom:80px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+span{
+    font-weight: 500;
+}
+
+.smhd{
+    text-shadow: 1px 1px 1px grey;
+}
+
+#body1{
+    background-image: url(bg1.jpg)
+}

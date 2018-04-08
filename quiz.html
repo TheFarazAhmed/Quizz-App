@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz JS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="timerfunc();">
+    <div id="quizcontainer" class="row">
+	<div class="col-sm-4"><h2 id="timer" style="text-align:right;"></h2> </div>
+        <div class="col-sm-8">
+            <h3 id="qnumber">Question Number <h3 id="qnum"></h3> </h3>
+            <h3 id="question"></h3>
+            <label> <input type="radio" name="option" onchange="func1();" value="1" class="form-control"> <span id="option1"></span> </label>
+            <br>
+            <label> <input type="radio" name="option" onchange="func1();" value="2" class="form-control"> <span id="option2"></span> </label>
+            <br>
+            <label> <input type="radio" name="option" onchange="func1();" value="3" class="form-control"> <span id="option3"></span> </label>
+            <br>
+            <label> <input type="radio" name="option" onchange="func1();" value="4" class="form-control"> <span id="option4"></span> </label>
+            <br>
+            <button onclick="next();" disabled="disabled" id="nextbutton">Go to Next Question</button>
+        </div>
+       
+    </div>
+
+    <div id="resultcontainer" style="display:none;"> 
+        <h1 id="score"></h1>
+        <button onclick="gotologin();" id="buttlogout" style="visibility:hidden;">LOG OUT</button>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

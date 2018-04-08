@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body, html{
+  height: 100%;
+  background: #222222;
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+}
+
+/* .container{
+  display: block;
+  position: relative;
+  margin: 40px auto;
+  height: auto;
+  width: 500px;
+  padding: 20px;
+} */
+
+h2 {
+    color: yellow;
+    font-stretch: expanded;
+}
+
+/* input[type="radio"]:ch{
+    background: aqua;
+} */
+
+input[type="radio"]:checked+span
+{
+    
+ color: lightcoral;    
+}
+
+h3, span {
+	font-size: 22px;
+	color: beige;
+}
+
+#startquiz{
+    background-color:transparent;
+    border-color:aqua;
+    color: aqua;
+    size: 20px;
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3#qnumber{
+    display: inline;
+    font-size: 24px;
+    color: lightcoral;
+    margin-bottom: 10px;
+}
+
+h3#qnum{
+    display: inline;
+    font-size: 24px;
+	color: lightcoral;
+}
+
+#nextbutton{
+    background-color:transparent;
+    border-color: aquamarine;
+    color: aquamarine;
+    size: 20px;
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    /* text-align: center; */
+}
+
+.row{
+    background-image: url(js.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#bodyimg{
+    background-image: url(js.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#resultcontainer{
+    text-align: center;
+    color: skyblue;
+    font-weight: bolder;
+}
+
+#buttlogout{
+    /* display: none; */
+    margin-left: auto;
+    background-color:transparent;
+    color:red;
+    border-color:red;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
